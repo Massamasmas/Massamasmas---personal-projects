@@ -462,5 +462,3 @@ nyTimesWordList = [
     "unlit", "vomit", "fanny", "fetus", "butch"
     "stalk", "flack", "widow", "augur"
 ]
-
-print(nyTimesWordList)
