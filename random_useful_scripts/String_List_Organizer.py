@@ -32,13 +32,11 @@ line = []
 for i, word in enumerate(inputList, start=1):
     line.append(word) 
     if i % n == 0:
-        lines.append(' '.join(line))
+        lines.append('", "'.join(line))
         line = []
 if line:
-    lines.append(' '.join(line))
-outputStr = '"\n "'.join(lines)
-
-outputList = outputStr.split()
+    lines.append('", "'.join(line))
+outputList = '"\n "'.join(lines)
 
 
 print(outputList)
