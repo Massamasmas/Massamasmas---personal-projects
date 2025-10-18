@@ -1,21 +1,3 @@
-inputList = [
-    
-]
-
-lines = []
-line = []
-
-for i, word in enumerate(list, start=1):
-    line.append(word)
-    if i % 5 == 0:
-        lines.append('", "'.join(line))
-        line = []
-if line:
-    lines.append('", "'.join(line))
-WordListb = '"\n "'.join(lines)
-
-print(WordListb)
-
 nyTimesWordList = [
     "cigar", "rebut", "sissy", "humph", "awake"
     "blush", "focal", "evade", "naval", "serve"
