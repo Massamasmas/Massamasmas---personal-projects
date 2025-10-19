@@ -14,20 +14,16 @@ a project aiming to find the worst possible wordle
 
 ## Projects Overview
 
-### 🔧 Random Useful Scripts (`random_useful_scripts/`)
+Random Useful Scripts (`random_useful_scripts/`)
 
-A collection of utility scripts for common string and list manipulation tasks:
+A collection of utility scripts:
 
 - **`String_List_Converter.py`** - Converts input strings into formatted output lists
 - **`String_List_Organizer.py`** - Organizes and formats lists for code integration
-  - Takes a list of strings and formats them into multi-column output
-  - Configurable column count (default: 5 columns)
-  - Outputs formatted strings ready for copy-paste into code
-  - Handles proper quoting and line breaks
 
-### 🎯 Worst Wordle Score (`worst-wordle-score/`)
+Worst Wordle Score (`worst-wordle-score/`)
 
-Tools and resources related to Wordle word analysis:
+a program aiming to find the lowest possible wordle score:
 
 - **`NYTimesOfficialWordlist.py`** - Complete New York Times Wordle official word list
   - Contains 464 official Wordle words
