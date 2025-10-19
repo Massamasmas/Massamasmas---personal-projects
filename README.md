@@ -15,7 +15,7 @@ projects/
 
 ### Random Useful Scripts (`random_useful_scripts/`)
 
-A collection of utility scripts for common string and list manipulation tasks:
+A collection of utility scripts:
 
 - **`String_List_Converter.py`**
 - Converts space-separated strings into Python lists
