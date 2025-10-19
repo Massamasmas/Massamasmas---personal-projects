@@ -207,8 +207,8 @@ validGuessList1 = [
  "boabs", "boaks", "boars", "boart", "boats",
  "bobac", "bobak", "bobas", "bobol", "bobos"
 ]
-#print(validGuessList1)
-print(len(validGuessList1))
+length1 = len(validGuessList1)
+print(length1)
 
 validGuessList2 = [
     "bocca", "bocce", "bocci", "boche", "bocks",
@@ -412,8 +412,8 @@ validGuessList2 = [
  "culti", "cults", "culty", "cumec", "cundy",
  "cunei", "cunit", "cunts", "cupel", "cupid"
 ]
-#print(validGuessList2)
-print(len(validGuessList2))
+length2 = len(validGuessList2)
+print(length2)
 
 validGuessList3 = [
 "cuppa", "cuppy", "curat", "curbs", "curch",
@@ -617,8 +617,8 @@ validGuessList3 = [
  "feres", "feria", "ferly", "fermi", "ferms",
  "ferns", "ferny", "fesse", "festa", "fests"
 ]
-#print(validGuessList3)
-print(len(validGuessList3))
+length3 = len(validGuessList3)
+print(length3)
 
 validGuessList4 = [
 "festy", "fetas", "feted", "fetes", "fetor",
@@ -822,8 +822,8 @@ validGuessList4 = [
  "heirs", "hejab", "hejra", "heled", "heles",
  "helio", "hells", "helms", "helos", "helot"
 ]
-#print(validGuessList4)
-print(len(validGuessList4))
+length4 = len(validGuessList4)
+print(length4)
 
 validGuessList5 = [
 "helps", "helve", "hemal", "hemes", "hemic",
@@ -1027,8 +1027,8 @@ validGuessList5 = [
  "lants", "lapin", "lapis", "lapje", "larch",
  "lards", "lardy", "laree", "lares", "largo"
 ]
-#print(validGuessList5)
-print(len(validGuessList5))
+length5 = len(validGuessList5)
+print(length5)
 
 validGuessList6 = [
 "laris", "larks", "larky", "larns", "larnt",
@@ -1232,8 +1232,8 @@ validGuessList6 = [
  "muxed", "muxes", "muzak", "muzzy", "mvule",
  "myall", "mylar", "mynah", "mynas", "myoid"
 ]
-#print(validGuessList6)
-print(len(validGuessList6))
+length6 = len(validGuessList6)
+print(length6)
 
 validGuessList7 = [
 "myoma", "myope", "myops", "myopy", "mysid",
@@ -1437,8 +1437,8 @@ validGuessList7 = [
  "poori", "poort", "poots", "poove", "poovy",
  "popes", "poppa", "popsy", "porae", "poral"
 ]
-#print(validGuessList7)
-print(len(validGuessList7))
+length7 = len(validGuessList7)
+print(length7)
 
 validGuessList8 = [
 "pored", "porer", "pores", "porge", "porgy",
@@ -1642,8 +1642,8 @@ validGuessList8 = [
  "scoot", "scopa", "scops", "scots", "scoug",
  "scoup", "scowp", "scows", "scrab", "scrae"
 ]
-#print(validGuessList8)
-print(len(validGuessList8))
+length8 = len(validGuessList8)
+print(length8)
 
 validGuessList9 = [
 "scrag", "scran", "scrat", "scraw", "scray",
@@ -1847,8 +1847,8 @@ validGuessList9 = [
  "syces", "sycon", "syens", "syker", "sykes",
  "sylis", "sylph", "sylva", "symar", "synch"
 ]
-#print(validGuessList9)
-print(len(validGuessList9))
+length9 = len(validGuessList9)
+print(length9)
 
 validGuessList10 = [
 "syncs", "synds", "syned", "synes", "synth",
@@ -2052,8 +2052,8 @@ validGuessList10 = [
  "voces", "voddy", "vodou", "vodun", "voema",
  "vogie", "voids", "voile", "voips", "volae"
 ]
-#print(validGuessList10)
-print(len(validGuessList10))
+length10 = len(validGuessList10)
+print(length10)
 
 validGuessList11 = [
 "volar", "voled", "voles", "volet", "volks",
@@ -2189,5 +2189,8 @@ validGuessList11 = [
  "zuppa", "zurfs", "zuzim", "zygal", "zygon",
  "zymes", "zymic"
 ]
-#print(validGuessList11)
-print(len(validGuessList11))
+length11 = len(validGuessList11)
+print(length11)
+
+totalLength = length1 + length2 + length3 + length4 + length5 + length6 + length7 + length8 + length9 + length10 + length11
+print(totalLength)
