@@ -476,4 +476,4 @@ length3 = len(answersList3)
 
 
 answersListTL = length1 + length2 + length3
-print("Total words in answersList: " + str(answersListTL))
+print("Total length in answersList: " + str(answersListTL))
