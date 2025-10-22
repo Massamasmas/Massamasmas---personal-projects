@@ -474,12 +474,6 @@ answersList3 = [
 ]
 length3 = len(answersList3)
 
-print(length1)
-print(length2)
-print(length3)
 
-answersList = [
-    answersList1, 
-    answersList2, 
-    answersList3
-    ]
+totalLength = length1 + length2 + length3
+print("Total words in answersList: " + str(totalLength))

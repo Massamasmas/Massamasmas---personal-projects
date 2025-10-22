@@ -2192,5 +2192,8 @@ validGuessList11 = [
 length11 = len(validGuessList11)
 print(length11)
 
-totalLength = length1 + length2 + length3 + length4 + length5 + length6 + length7 + length8 + length9 + length10 + length11
-print(totalLength)
+totalLength = length1 + length2 + length3
+totalLength += length4 + length5 + length6
+totalLength += length7 + length8 + length9
+totalLength += length10 + length11
+print("Total length of validGuessList: " + str(totalLength))
