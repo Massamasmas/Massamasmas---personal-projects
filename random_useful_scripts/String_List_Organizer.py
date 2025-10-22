@@ -13,7 +13,7 @@ outputList is of type String
 inputList is of type list/array
 
 Input:
-["Test1", "Test2", "Test3", "Test4", "Test5", "Test6", "Test7", "Test8", "Test9", "Test10"])
+["Test1", "Test2", "Test3", "Test4", "Test5", "Test6", "Test7", "Test8", "Test9", "Test10"]
 Expected output: 
 Test1", "Test2", "Test3", "Test4", "Test5"
  "Test6", "Test7", "Test8", "Test9", "Test10
@@ -36,7 +36,7 @@ for i, word in enumerate(inputList, start=1):
         line = []
 if line:
     lines.append('", "'.join(line))
-outputList = '"\n "'.join(lines)
+outputList = '",\n "'.join(lines)
 
 
 print(outputList)
